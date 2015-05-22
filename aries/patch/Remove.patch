@@ -1,0 +1,13 @@
+diff --git a/vendor/mk/config/common.mk b/vendor/mk/config/common.mk
+index 401b17e..30ba238 100644
+--- a/vendor/mk/config/common.mk
++++ b/vendor/mk/config/common.mk
+@@ -191,7 +191,7 @@ PRODUCT_PACKAGES += \
+     LockClock \
+     MoKeeHelper \
+     MoKeePay \
+-    MoKeeSetupWizard \
++#    MoKeeSetupWizard \
+ 
+ # MK Hardware Abstraction Framework
+ PRODUCT_PACKAGES += \
